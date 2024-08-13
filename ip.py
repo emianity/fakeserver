@@ -1,4 +1,5 @@
 import psutil
+import socket
 
 # 获取所有网络接口的地址信息
 addrs = psutil.net_if_addrs()
